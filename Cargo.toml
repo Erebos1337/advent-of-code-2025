@@ -1,0 +1,5 @@
+[workspace]
+resolver = "3"
+members = ["day01", "utils"]
+
+default-members = ["day01", "utils"]
