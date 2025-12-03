@@ -2,7 +2,7 @@ use regex::Regex;
 use utils::inputs::read_lines;
 
 pub fn main() {
-    let lines = read_lines("./day02/input.txt").unwrap();
+    let lines = read_lines("./day02/input.txt");
 
     let mut invalid_ids_sum: u64 = 0;
     let mut invalid_ids_sum2: u64 = 0;
